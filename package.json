@@ -13,11 +13,12 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "@bacons/expo-metro-runtime": "^2.0.1",
     "@expo-google-fonts/source-code-pro": "^0.2.2",
     "expo": "~47.0.8",
     "expo-font": "~11.0.1",
     "expo-linking": "~3.3.0",
-    "expo-router": "^0.0.40",
+    "expo-router": "^0.0.43",
     "expo-splash-screen": "~0.17.5",
     "expo-status-bar": "~1.4.2",
     "expo-system-ui": "~2.0.1",
