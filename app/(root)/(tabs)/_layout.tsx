@@ -25,7 +25,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         // TODO: Type
-        options={({ navigation }): any => ({
+        options={{
           title: "Tab One",
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
           headerRight: () => (
@@ -42,7 +42,7 @@ export default function TabLayout() {
               </Pressable>
             </Link>
           ),
-        })}
+        }}
       />
       <Tabs.Screen
         name="two"

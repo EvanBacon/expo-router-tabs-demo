@@ -45,7 +45,7 @@ function RootLayoutNav() {
         theme={colorScheme === "dark" ? DarkTheme : DefaultTheme}
       />
       <ErrorToastContainer>
-        <Stack>
+        <Stack initialRouteName={unstable_settings.initialRouteName}>
           <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
           <Stack.Screen name="modal" options={{ presentation: "modal" }} />
         </Stack>
